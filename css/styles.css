@@ -1,0 +1,29 @@
+html, body {
+  height: 100%;
+}
+
+body {
+			background-image: url(../images/books.jpg);
+			background-position: center center;
+			background-repeat:  no-repeat;
+			background-attachment: fixed;
+			background-size:  cover;
+			background-color: #999;
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+}
+
+.frame {
+	border: solid 5px white;
+}
+
+h1 {
+	font-family: 'Staatliches', cursive;
+}
+
+p {
+	font-family: 'Raleway', sans-serif;
+}
