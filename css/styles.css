@@ -10,6 +10,30 @@ body {
 			background-size:  cover;
 			background-color: #999;
 }
+@font-face {
+	font-family: 'zc_casual__regularregular';
+	src: url('../fonts/mw-marker-webfont.woff2') format('woff2'),
+			 url('../fonts/mw-marker-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+h1, p {
+	margin: 0;
+}
+.center {
+	text-align: center;
+}
+
+.img {
+	width: 101px;
+	height: 100px;
+}
+
+.logo {
+	margin-top: -40px;
+	margin-bottom: 20px;
+}
 
 .wrapper {
   height: 100%;
@@ -18,22 +42,59 @@ body {
 
 .frame {
 	border: solid 5px white;
+	position: relative;
+	top: 100px;
+	height: 500px;
 }
 
-h1 {
-	font-family: 'Staatliches', cursive;
-}
-
-p {
-	font-family: 'Raleway', sans-serif;
-}
-
-
-.something {
+.name {
 	padding: 25px;
-	font-size: 98px;
+	font-size: 50px;
 	text-transform: uppercase;
-	/* height: 800px; */
-	font-family: sans-serif;
+	font-family: 'zc_casual__regularregular';
 	text-align: center;
+	margin-top: -43px;
+}
+
+.name h1 {
+	padding: 20px 0;
+}
+
+.cw {
+	font-family: 'Staatliches', cursive;
+	text-transform: uppercase;
+	letter-spacing: 15px;
+	text-align: center;
+}
+
+.label {
+	margin: 20px;
+  width: 200px;
+  height: 50px;
+  display: inline-block;
+	background: red;   
+	position: relative;
+	top: -50px; 
+}
+
+.coming-soon {
+	font-family: 'Staatliches', cursive;
+  text-transform: uppercase;
+  color: white;
+	display: block;
+	font-size: 18px;
+	letter-spacing: 8px;
+	position: relative;
+	top: 14px;
+}
+
+.contact {
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	color: white;
+}
+
+.contact a {
+	color: white;
+	text-decoration: none;
 }
