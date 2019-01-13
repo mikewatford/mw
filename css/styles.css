@@ -3,12 +3,12 @@ html, body {
 }
 
 body {
-			background-image: url(../images/books.jpg);
-			background-position: center center;
-			background-repeat:  no-repeat;
-			background-attachment: fixed;
-			background-size:  cover;
-			background-color: #999;
+	background-image: url(../images/me-wide-blank.jpg);
+	background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+	background-color: #999;
 }
 @font-face {
 	font-family: 'zc_casual__regularregular';
@@ -35,6 +35,10 @@ h1, p {
 	margin-bottom: 20px;
 }
 
+.red {
+	color: #9a0505;
+}
+
 .wrapper {
   height: 100%;
   width: 100%;
@@ -49,15 +53,16 @@ h1, p {
 
 .name {
 	padding: 25px;
-	font-size: 50px;
+	font-size: 45px;
 	text-transform: uppercase;
 	font-family: 'zc_casual__regularregular';
 	text-align: center;
 	margin-top: -43px;
+	color: white;
 }
 
-.name h1 {
-	padding: 20px 0;
+.space {
+	padding: 10px 0;
 }
 
 .cw {
@@ -65,13 +70,14 @@ h1, p {
 	text-transform: uppercase;
 	letter-spacing: 15px;
 	text-align: center;
+	color: white;
 }
 
 .label {
 	margin: 20px;
-  width: 200px;
-  height: 50px;
-  display: inline-block;
+  	width: 200px;
+  	height: 50px;
+  	display: inline-block;
 	background: red;   
 	position: relative;
 	top: -50px; 
@@ -79,8 +85,8 @@ h1, p {
 
 .coming-soon {
 	font-family: 'Staatliches', cursive;
-  text-transform: uppercase;
-  color: white;
+  	text-transform: uppercase;
+  	color: white;
 	display: block;
 	font-size: 18px;
 	letter-spacing: 8px;
